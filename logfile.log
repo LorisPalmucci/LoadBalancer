@@ -1,0 +1,15 @@
+2025-08-03 12:44:42,905 - logconfig - INFO - Avvio del server: 
+2025-08-03 12:50:07,734 - logconfig - INFO - Avvio del server: 
+2025-08-03 12:50:45,788 - logconfig - INFO - Avvio del server: 
+2025-08-03 12:51:41,129 - logconfig - INFO - Avvio del server:  - <module 'socket' from 'C:\\Python311\\Lib\\socket.py'>
+2025-08-03 12:52:55,229 - logconfig - INFO - Avvio del server:  - <socket.socket fd=376, family=2, type=1, proto=0>
+2025-08-03 12:56:12,642 - logconfig - INFO - Avvio del server:  - <socket.socket fd=320, family=2, type=1, proto=0>
+%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(socket)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(srvip)s - %(srvport)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(socket)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(socket)s
+2025-08-03 13:17:17,806 - logconfig - INFO - Avvio del server: 
+2025-08-03 13:17:36,667 - logconfig - INFO - Avvio del server: 
+2025-08-03 13:19:59,334 - logconfig - INFO - Avvio del server: 
+2025-08-03 13:22:05,187 - logconfig - INFO - Avvio del server
+2025-08-03 13:22:05,187 - logconfig - INFO - Server in ascolto
