@@ -1,15 +1,916 @@
-2025-08-03 12:44:42,905 - logconfig - INFO - Avvio del server: 
-2025-08-03 12:50:07,734 - logconfig - INFO - Avvio del server: 
-2025-08-03 12:50:45,788 - logconfig - INFO - Avvio del server: 
-2025-08-03 12:51:41,129 - logconfig - INFO - Avvio del server:  - <module 'socket' from 'C:\\Python311\\Lib\\socket.py'>
-2025-08-03 12:52:55,229 - logconfig - INFO - Avvio del server:  - <socket.socket fd=376, family=2, type=1, proto=0>
-2025-08-03 12:56:12,642 - logconfig - INFO - Avvio del server:  - <socket.socket fd=320, family=2, type=1, proto=0>
-%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(socket)s
-%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(srvip)s - %(srvport)s
-%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(socket)s
-%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(socket)s
-2025-08-03 13:17:17,806 - logconfig - INFO - Avvio del server: 
-2025-08-03 13:17:36,667 - logconfig - INFO - Avvio del server: 
-2025-08-03 13:19:59,334 - logconfig - INFO - Avvio del server: 
-2025-08-03 13:22:05,187 - logconfig - INFO - Avvio del server
-2025-08-03 13:22:05,187 - logconfig - INFO - Server in ascolto
+2025-08-03 17:35:51,113 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55588), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:35:51,114 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55588)
+2025-08-03 17:35:51,114 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55589), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:35:51,114 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-6 (new_thread), initial)>
+2025-08-03 17:35:51,114 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55590), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:35:51,114 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:35:51,114 - logconfig - INFO - 0
+nessione 4 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55591), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:35:51,114 - logconfig - INFO - 2
+2025-08-03 17:35:51,114 - logconfig - INFO - 4
+2025-08-03 17:35:51,115 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55592), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:35:51,114 - logconfig - INFO - Thread avviato su 21916
+2025-08-03 17:35:51,115 - logconfig - INFO - 6
+2025-08-03 17:35:51,115 - logconfig - INFO - 8
+2025-08-03 17:35:51,115 - logconfig - INFO - 10
+2025-08-03 17:35:51,115 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55589)
+2025-08-03 17:35:51,115 - logconfig - INFO - 12
+2025-08-03 17:35:51,115 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-7 (new_thread), initial)>
+2025-08-03 17:35:51,116 - logconfig - INFO - 14
+2025-08-03 17:35:51,116 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:35:51,116 - logconfig - INFO - Thread avviato su 19408
+2025-08-03 17:35:51,116 - logconfig - INFO - 16
+2025-08-03 17:35:51,117 - logconfig - INFO - 18
+2025-08-03 17:35:51,117 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55590)
+2025-08-03 17:35:51,116 - logconfig - INFO - 0
+2025-08-03 17:35:51,117 - logconfig - INFO - 2
+2025-08-03 17:35:51,117 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-8 (new_thread), initial)>
+2025-08-03 17:35:51,117 - logconfig - INFO - 20
+2025-08-03 17:35:51,118 - logconfig - INFO - 4
+2025-08-03 17:35:51,118 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:35:51,118 - logconfig - INFO - Thread avviato su 8812
+2025-08-03 17:35:51,118 - logconfig - INFO - 22
+2025-08-03 17:35:51,118 - logconfig - INFO - 6
+2025-08-03 17:35:51,119 - logconfig - INFO - 0
+2025-08-03 17:35:51,119 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55591)
+2025-08-03 17:35:51,119 - logconfig - INFO - 24
+2025-08-03 17:35:51,119 - logconfig - INFO - 8
+2025-08-03 17:35:51,119 - logconfig - INFO - 2
+2025-08-03 17:35:51,119 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-9 (new_thread), initial)>
+2025-08-03 17:35:51,120 - logconfig - INFO - 26
+2025-08-03 17:35:51,120 - logconfig - INFO - 10
+2025-08-03 17:35:51,120 - logconfig - INFO - 4
+2025-08-03 17:35:51,121 - logconfig - INFO - 6
+2025-08-03 17:35:51,120 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:35:51,120 - logconfig - INFO - 12
+2025-08-03 17:35:51,120 - logconfig - INFO - Thread avviato su 25704
+2025-08-03 17:35:51,120 - logconfig - INFO - 28
+2025-08-03 17:35:51,121 - logconfig - INFO - 8
+2025-08-03 17:35:51,121 - logconfig - INFO - 0
+2025-08-03 17:35:51,121 - logconfig - INFO - 14
+2025-08-03 17:35:51,122 - logconfig - INFO - 16
+2025-08-03 17:35:51,122 - logconfig - INFO - 18
+2025-08-03 17:35:51,121 - logconfig - INFO - 10
+2025-08-03 17:35:51,122 - logconfig - INFO - 2
+2025-08-03 17:35:51,121 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55592)
+2025-08-03 17:35:51,121 - logconfig - INFO - 30
+2025-08-03 17:35:51,122 - logconfig - INFO - 20
+2025-08-03 17:35:51,122 - logconfig - INFO - 12
+2025-08-03 17:35:51,122 - logconfig - INFO - 4
+2025-08-03 17:35:51,124 - logconfig - INFO - 6
+2025-08-03 17:35:51,124 - logconfig - INFO - 8
+2025-08-03 17:35:51,123 - logconfig - INFO - 22
+2025-08-03 17:35:51,123 - logconfig - INFO - 14
+2025-08-03 17:35:51,123 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-10 (new_thread), initial)>
+2025-08-03 17:35:51,123 - logconfig - INFO - 32
+2025-08-03 17:35:51,125 - logconfig - INFO - 34
+2025-08-03 17:35:51,124 - logconfig - INFO - 24
+2025-08-03 17:35:51,124 - logconfig - INFO - 16
+2025-08-03 17:35:51,125 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:35:51,125 - logconfig - INFO - Thread avviato su 14340
+2025-08-03 17:35:51,124 - logconfig - INFO - 10
+2025-08-03 17:35:51,125 - logconfig - INFO - 36
+2025-08-03 17:35:51,126 - logconfig - INFO - 38
+2025-08-03 17:35:51,126 - logconfig - INFO - 40
+2025-08-03 17:35:51,126 - logconfig - INFO - 0
+2025-08-03 17:35:51,126 - logconfig - INFO - 12
+2025-08-03 17:35:51,125 - logconfig - INFO - 26
+2025-08-03 17:35:51,127 - logconfig - INFO - 28
+2025-08-03 17:35:51,127 - logconfig - INFO - 42
+2025-08-03 17:35:51,127 - logconfig - INFO - 2
+2025-08-03 17:35:51,127 - logconfig - INFO - 14
+2025-08-03 17:35:51,125 - logconfig - INFO - 18
+2025-08-03 17:35:51,127 - logconfig - INFO - 30
+2025-08-03 17:35:51,127 - logconfig - INFO - 44
+2025-08-03 17:35:51,127 - logconfig - INFO - 4
+2025-08-03 17:35:51,128 - logconfig - INFO - 16
+2025-08-03 17:35:51,128 - logconfig - INFO - 20
+2025-08-03 17:35:51,128 - logconfig - INFO - 32
+2025-08-03 17:35:51,128 - logconfig - INFO - 46
+2025-08-03 17:35:51,128 - logconfig - INFO - 6
+2025-08-03 17:35:51,129 - logconfig - INFO - 18
+2025-08-03 17:35:51,129 - logconfig - INFO - 22
+2025-08-03 17:35:51,129 - logconfig - INFO - 34
+2025-08-03 17:35:51,129 - logconfig - INFO - 48
+2025-08-03 17:35:51,130 - logconfig - INFO - 50
+2025-08-03 17:35:51,129 - logconfig - INFO - 20
+2025-08-03 17:35:51,129 - logconfig - INFO - 24
+2025-08-03 17:35:51,130 - logconfig - INFO - 36
+2025-08-03 17:35:51,129 - logconfig - INFO - 8
+2025-08-03 17:35:51,130 - logconfig - INFO - 52
+2025-08-03 17:35:51,130 - logconfig - INFO - 22
+2025-08-03 17:35:51,130 - logconfig - INFO - 26
+2025-08-03 17:35:51,131 - logconfig - INFO - 28
+2025-08-03 17:35:51,130 - logconfig - INFO - 10
+2025-08-03 17:35:51,130 - logconfig - INFO - 54
+2025-08-03 17:35:51,131 - logconfig - INFO - 24
+2025-08-03 17:35:51,130 - logconfig - INFO - 38
+2025-08-03 17:35:51,131 - logconfig - INFO - 30
+2025-08-03 17:35:51,131 - logconfig - INFO - 12
+2025-08-03 17:35:51,131 - logconfig - INFO - 56
+2025-08-03 17:35:51,131 - logconfig - INFO - 26
+2025-08-03 17:35:51,131 - logconfig - INFO - 40
+2025-08-03 17:35:51,132 - logconfig - INFO - 32
+2025-08-03 17:35:51,132 - logconfig - INFO - 14
+2025-08-03 17:35:51,132 - logconfig - INFO - 58
+2025-08-03 17:35:51,132 - logconfig - INFO - 28
+2025-08-03 17:35:51,132 - logconfig - INFO - 42
+2025-08-03 17:35:51,132 - logconfig - INFO - 34
+2025-08-03 17:35:51,132 - logconfig - INFO - 16
+2025-08-03 17:35:51,133 - logconfig - INFO - 60
+2025-08-03 17:35:51,133 - logconfig - INFO - 30
+2025-08-03 17:35:51,133 - logconfig - INFO - 44
+2025-08-03 17:35:51,133 - logconfig - INFO - 36
+2025-08-03 17:35:51,133 - logconfig - INFO - 18
+2025-08-03 17:35:51,133 - logconfig - INFO - 62
+2025-08-03 17:35:51,133 - logconfig - INFO - 32
+2025-08-03 17:35:51,134 - logconfig - INFO - 46
+2025-08-03 17:35:51,134 - logconfig - INFO - 38
+2025-08-03 17:35:51,134 - logconfig - INFO - 40
+2025-08-03 17:35:51,134 - logconfig - INFO - 64
+2025-08-03 17:35:51,134 - logconfig - INFO - 34
+2025-08-03 17:35:51,134 - logconfig - INFO - 48
+2025-08-03 17:35:51,134 - logconfig - INFO - 20
+2025-08-03 17:35:51,134 - logconfig - INFO - 42
+2025-08-03 17:35:51,135 - logconfig - INFO - 66
+2025-08-03 17:35:51,135 - logconfig - INFO - 36
+2025-08-03 17:35:51,135 - logconfig - INFO - 50
+2025-08-03 17:35:51,135 - logconfig - INFO - 22
+2025-08-03 17:35:51,135 - logconfig - INFO - 44
+2025-08-03 17:35:51,135 - logconfig - INFO - 68
+2025-08-03 17:35:51,135 - logconfig - INFO - 38
+2025-08-03 17:35:51,136 - logconfig - INFO - 52
+2025-08-03 17:35:51,136 - logconfig - INFO - 54
+2025-08-03 17:35:51,137 - logconfig - INFO - 56
+2025-08-03 17:35:51,137 - logconfig - INFO - 58
+2025-08-03 17:35:51,136 - logconfig - INFO - 40
+2025-08-03 17:35:51,136 - logconfig - INFO - 24
+2025-08-03 17:35:51,136 - logconfig - INFO - 46
+2025-08-03 17:35:51,136 - logconfig - INFO - 70
+2025-08-03 17:35:51,137 - logconfig - INFO - 60
+2025-08-03 17:35:51,137 - logconfig - INFO - 42
+2025-08-03 17:35:51,137 - logconfig - INFO - 26
+2025-08-03 17:35:51,137 - logconfig - INFO - 48
+2025-08-03 17:35:51,138 - logconfig - INFO - 50
+2025-08-03 17:35:51,138 - logconfig - INFO - 62
+2025-08-03 17:35:51,138 - logconfig - INFO - 44
+2025-08-03 17:35:51,138 - logconfig - INFO - 28
+2025-08-03 17:35:51,138 - logconfig - INFO - 72
+2025-08-03 17:35:51,139 - logconfig - INFO - 52
+2025-08-03 17:35:51,140 - logconfig - INFO - 54
+2025-08-03 17:35:51,139 - logconfig - INFO - 46
+2025-08-03 17:35:51,140 - logconfig - INFO - 48
+2025-08-03 17:35:51,139 - logconfig - INFO - 30
+2025-08-03 17:35:51,140 - logconfig - INFO - 32
+2025-08-03 17:35:51,140 - logconfig - INFO - 34
+2025-08-03 17:35:51,140 - logconfig - INFO - 50
+2025-08-03 17:35:51,140 - logconfig - INFO - 74
+2025-08-03 17:35:51,139 - logconfig - INFO - 64
+2025-08-03 17:35:51,140 - logconfig - INFO - 56
+2025-08-03 17:35:51,140 - logconfig - INFO - 36
+2025-08-03 17:35:51,141 - logconfig - INFO - 52
+2025-08-03 17:35:51,141 - logconfig - INFO - 76
+2025-08-03 17:35:51,141 - logconfig - INFO - 78
+2025-08-03 17:35:51,141 - logconfig - INFO - 58
+2025-08-03 17:35:51,141 - logconfig - INFO - 38
+2025-08-03 17:35:51,142 - logconfig - INFO - 40
+2025-08-03 17:35:51,142 - logconfig - INFO - 42
+2025-08-03 17:35:51,141 - logconfig - INFO - 66
+2025-08-03 17:35:51,142 - logconfig - INFO - 60
+2025-08-03 17:35:51,141 - logconfig - INFO - 54
+2025-08-03 17:35:51,142 - logconfig - INFO - 44
+2025-08-03 17:35:51,142 - logconfig - INFO - 80
+2025-08-03 17:35:51,142 - logconfig - INFO - 68
+2025-08-03 17:35:51,142 - logconfig - INFO - 62
+2025-08-03 17:35:51,142 - logconfig - INFO - 56
+2025-08-03 17:35:51,143 - logconfig - INFO - 58
+2025-08-03 17:35:51,143 - logconfig - INFO - 82
+2025-08-03 17:35:51,143 - logconfig - INFO - 70
+2025-08-03 17:35:51,143 - logconfig - INFO - 64
+2025-08-03 17:35:51,142 - logconfig - INFO - 46
+2025-08-03 17:35:51,143 - logconfig - INFO - 60
+2025-08-03 17:35:51,143 - logconfig - INFO - 84
+2025-08-03 17:35:51,143 - logconfig - INFO - 72
+2025-08-03 17:35:51,144 - logconfig - INFO - 66
+2025-08-03 17:35:51,144 - logconfig - INFO - 48
+2025-08-03 17:35:51,144 - logconfig - INFO - 62
+2025-08-03 17:35:51,144 - logconfig - INFO - 86
+2025-08-03 17:35:51,144 - logconfig - INFO - 74
+2025-08-03 17:35:51,144 - logconfig - INFO - 68
+2025-08-03 17:35:51,144 - logconfig - INFO - 50
+2025-08-03 17:35:51,144 - logconfig - INFO - 64
+2025-08-03 17:35:51,145 - logconfig - INFO - 88
+2025-08-03 17:35:51,145 - logconfig - INFO - 76
+2025-08-03 17:35:51,145 - logconfig - INFO - 70
+2025-08-03 17:35:51,145 - logconfig - INFO - 52
+2025-08-03 17:35:51,146 - logconfig - INFO - 54
+2025-08-03 17:35:51,145 - logconfig - INFO - 90
+2025-08-03 17:35:51,146 - logconfig - INFO - 92
+2025-08-03 17:35:51,146 - logconfig - INFO - 72
+2025-08-03 17:35:51,146 - logconfig - INFO - 74
+2025-08-03 17:35:51,146 - logconfig - INFO - 56
+2025-08-03 17:35:51,145 - logconfig - INFO - 78
+2025-08-03 17:35:51,146 - logconfig - INFO - 94
+2025-08-03 17:35:51,145 - logconfig - INFO - 66
+2025-08-03 17:35:51,146 - logconfig - INFO - 76
+2025-08-03 17:35:51,147 - logconfig - INFO - 58
+2025-08-03 17:35:51,147 - logconfig - INFO - 80
+2025-08-03 17:35:51,147 - logconfig - INFO - 82
+2025-08-03 17:35:51,147 - logconfig - INFO - 68
+2025-08-03 17:35:51,147 - logconfig - INFO - 78
+2025-08-03 17:35:51,147 - logconfig - INFO - 60
+2025-08-03 17:35:51,147 - logconfig - INFO - 96
+2025-08-03 17:35:51,147 - logconfig - INFO - 84
+2025-08-03 17:35:51,148 - logconfig - INFO - 70
+2025-08-03 17:35:51,148 - logconfig - INFO - 80
+2025-08-03 17:35:51,148 - logconfig - INFO - 82
+2025-08-03 17:35:51,148 - logconfig - INFO - 98
+2025-08-03 17:35:51,148 - logconfig - INFO - 86
+2025-08-03 17:35:51,148 - logconfig - INFO - 72
+2025-08-03 17:35:51,149 - logconfig - INFO - 74
+2025-08-03 17:35:51,149 - logconfig - INFO - 76
+2025-08-03 17:35:51,149 - logconfig - INFO - 78
+2025-08-03 17:35:51,149 - logconfig - INFO - 88
+2025-08-03 17:35:51,148 - logconfig - INFO - 62
+2025-08-03 17:35:51,148 - logconfig - INFO - 84
+2025-08-03 17:35:51,148 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55588)
+2025-08-03 17:35:51,149 - logconfig - INFO - 80
+2025-08-03 17:35:51,149 - logconfig - INFO - 90
+2025-08-03 17:35:51,149 - logconfig - INFO - 64
+2025-08-03 17:35:51,150 - logconfig - INFO - 86
+2025-08-03 17:35:51,150 - logconfig - INFO - 82
+2025-08-03 17:35:51,150 - logconfig - INFO - 84
+2025-08-03 17:35:51,150 - logconfig - INFO - 66
+2025-08-03 17:35:51,150 - logconfig - INFO - 88
+2025-08-03 17:35:51,150 - logconfig - INFO - 92
+2025-08-03 17:35:51,150 - logconfig - INFO - 86
+2025-08-03 17:35:51,150 - logconfig - INFO - 68
+2025-08-03 17:35:51,151 - logconfig - INFO - 90
+2025-08-03 17:35:51,151 - logconfig - INFO - 94
+2025-08-03 17:35:51,151 - logconfig - INFO - 88
+2025-08-03 17:35:51,151 - logconfig - INFO - 70
+2025-08-03 17:35:51,151 - logconfig - INFO - 92
+2025-08-03 17:35:51,151 - logconfig - INFO - 96
+2025-08-03 17:35:51,151 - logconfig - INFO - 90
+2025-08-03 17:35:51,151 - logconfig - INFO - 72
+2025-08-03 17:35:51,152 - logconfig - INFO - 94
+2025-08-03 17:35:51,152 - logconfig - INFO - 98
+2025-08-03 17:35:51,152 - logconfig - INFO - 92
+2025-08-03 17:35:51,152 - logconfig - INFO - 74
+2025-08-03 17:35:51,152 - logconfig - INFO - 96
+2025-08-03 17:35:51,152 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55589)
+2025-08-03 17:35:51,152 - logconfig - INFO - 94
+2025-08-03 17:35:51,152 - logconfig - INFO - 76
+2025-08-03 17:35:51,152 - logconfig - INFO - 98
+2025-08-03 17:35:51,153 - logconfig - INFO - 96
+2025-08-03 17:35:51,153 - logconfig - INFO - 78
+2025-08-03 17:35:51,153 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55590)
+2025-08-03 17:35:51,153 - logconfig - INFO - 98
+2025-08-03 17:35:51,153 - logconfig - INFO - 80
+2025-08-03 17:35:51,153 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55591)
+2025-08-03 17:35:51,154 - logconfig - INFO - 82
+2025-08-03 17:35:51,154 - logconfig - INFO - 84
+2025-08-03 17:35:51,154 - logconfig - INFO - 86
+2025-08-03 17:35:51,154 - logconfig - INFO - 88
+2025-08-03 17:35:51,154 - logconfig - INFO - 90
+2025-08-03 17:35:51,154 - logconfig - INFO - 92
+2025-08-03 17:35:51,154 - logconfig - INFO - 94
+2025-08-03 17:35:51,154 - logconfig - INFO - 96
+2025-08-03 17:35:51,154 - logconfig - INFO - 98
+2025-08-03 17:35:51,154 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55592)
+2025-08-03 17:46:40,783 - logconfig - INFO - Avvio del server
+2025-08-03 17:46:40,784 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-03 17:46:53,274 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55751), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:46:53,274 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55751)
+2025-08-03 17:46:53,274 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55752), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:46:53,274 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55753), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:46:53,274 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55754), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:46:53,275 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55755), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:49:14,295 - logconfig - INFO - Avvio del server
+2025-08-03 17:49:14,295 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-03 17:49:19,084 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55789), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:49:19,084 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55789)
+2025-08-03 17:49:19,084 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-1 (new_thread), initial)>
+2025-08-03 17:49:19,084 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55790), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:49:19,085 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55791), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:49:19,085 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55792), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:49:19,085 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55793), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:49:19,086 - logconfig - INFO - Thread avviato su 20152
+2025-08-03 17:49:19,086 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55790)
+2025-08-03 17:49:19,086 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-2 (new_thread), initial)>
+2025-08-03 17:49:19,087 - logconfig - INFO - Thread avviato su 20052
+2025-08-03 17:49:19,087 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55791)
+2025-08-03 17:49:19,087 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-3 (new_thread), initial)>
+2025-08-03 17:49:19,088 - logconfig - INFO - Thread avviato su 20112
+2025-08-03 17:49:19,088 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55792)
+2025-08-03 17:49:19,088 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-4 (new_thread), initial)>
+2025-08-03 17:49:19,089 - logconfig - INFO - Thread avviato su 18384
+2025-08-03 17:49:19,089 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55793)
+2025-08-03 17:49:19,090 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-5 (new_thread), initial)>
+2025-08-03 17:49:19,090 - logconfig - INFO - Thread avviato su 9488
+2025-08-03 17:52:43,701 - logconfig - INFO - Avvio del server
+2025-08-03 17:52:43,701 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-03 17:52:49,399 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 55861), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:52:49,399 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55861)
+2025-08-03 17:52:49,399 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-1 (new_thread), initial)>
+2025-08-03 17:52:49,399 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 55862), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:52:49,399 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 55863), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:52:49,399 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 55864), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:52:49,400 - logconfig - INFO - Thread avviato su 15924
+u <socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 55865), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:52:49,400 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55862)
+2025-08-03 17:52:49,400 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-2 (new_thread), initial)>
+2025-08-03 17:52:49,401 - logconfig - INFO - Thread avviato su 8688
+2025-08-03 17:52:49,401 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55863)
+2025-08-03 17:52:49,402 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-3 (new_thread), initial)>
+2025-08-03 17:52:49,402 - logconfig - INFO - Thread avviato su 25124
+2025-08-03 17:52:49,403 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55864)
+2025-08-03 17:52:49,403 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-4 (new_thread), initial)>
+2025-08-03 17:52:49,404 - logconfig - INFO - Thread avviato su 24492
+2025-08-03 17:52:49,404 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55865)
+2025-08-03 17:52:49,404 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-5 (new_thread), initial)>
+2025-08-03 17:52:49,405 - logconfig - INFO - Thread avviato su 20260
+2025-08-03 17:53:55,183 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=316, family=2, type=1, proto=0, laddr=('127.0.0.1', 55885), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:53:55,183 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55885)
+2025-08-03 17:53:55,183 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-6 (new_thread), initial)>
+2025-08-03 17:53:55,183 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=312, family=2, type=1, proto=0, laddr=('127.0.0.1', 55886), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:53:55,183 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=328, family=2, type=1, proto=0, laddr=('127.0.0.1', 55887), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:53:55,183 - logconfig - INFO - Thread avviato su 16692
+2025-08-03 17:53:55,183 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55888), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:53:55,184 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55886)
+2025-08-03 17:53:55,184 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-7 (new_thread), initial)>
+2025-08-03 17:53:55,184 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=372, family=2, type=1, proto=0, laddr=('127.0.0.1', 55889), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:53:55,184 - logconfig - INFO - Thread avviato su 2820
+2025-08-03 17:53:55,184 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55887)
+2025-08-03 17:53:55,184 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-8 (new_thread), initial)>
+2025-08-03 17:53:55,185 - logconfig - INFO - Thread avviato su 17804
+2025-08-03 17:53:55,185 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55888)
+2025-08-03 17:53:55,186 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-9 (new_thread), initial)>
+2025-08-03 17:53:55,186 - logconfig - INFO - Thread avviato su 9732
+2025-08-03 17:53:55,187 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55889)
+2025-08-03 17:53:55,187 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-10 (new_thread), initial)>
+2025-08-03 17:53:55,187 - logconfig - INFO - Thread avviato su 22636
+2025-08-03 17:56:39,025 - logconfig - INFO - Avvio del server
+2025-08-03 17:56:39,025 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-03 17:56:46,109 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 55933), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:56:46,109 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55933)
+2025-08-03 17:56:46,109 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-1 (new_thread), initial)>
+2025-08-03 17:56:46,109 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=372, family=2, type=1, proto=0, laddr=('127.0.0.1', 55934), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:56:46,109 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=376, family=2, type=1, proto=0, laddr=('127.0.0.1', 55935), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:56:46,109 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=380, family=2, type=1, proto=0, laddr=('127.0.0.1', 55936), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:56:46,110 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=384, family=2, type=1, proto=0, laddr=('127.0.0.1', 55937), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:56:46,110 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:56:46,110 - logconfig - INFO - 0
+2025-08-03 17:56:46,110 - logconfig - INFO - Thread avviato su 19228
+2025-08-03 17:56:46,110 - logconfig - INFO - 2
+2025-08-03 17:56:46,110 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55934)
+2025-08-03 17:56:46,110 - logconfig - INFO - 4
+2025-08-03 17:56:46,110 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-2 (new_thread), initial)>
+2025-08-03 17:56:46,111 - logconfig - INFO - 6
+2025-08-03 17:56:46,111 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:56:46,111 - logconfig - INFO - 0
+2025-08-03 17:56:46,111 - logconfig - INFO - Thread avviato su 25216
+2025-08-03 17:56:46,111 - logconfig - INFO - 8
+2025-08-03 17:56:46,111 - logconfig - INFO - 2
+2025-08-03 17:56:46,112 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55935)
+2025-08-03 17:56:46,112 - logconfig - INFO - 10
+2025-08-03 17:56:46,112 - logconfig - INFO - 4
+2025-08-03 17:56:46,112 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-3 (new_thread), initial)>
+2025-08-03 17:56:46,112 - logconfig - INFO - 12
+2025-08-03 17:56:46,112 - logconfig - INFO - 6
+2025-08-03 17:56:46,113 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:56:46,113 - logconfig - INFO - 14
+2025-08-03 17:56:46,113 - logconfig - INFO - Thread avviato su 19768
+2025-08-03 17:56:46,113 - logconfig - INFO - 8
+2025-08-03 17:56:46,113 - logconfig - INFO - 0
+2025-08-03 17:56:46,113 - logconfig - INFO - 16
+2025-08-03 17:56:46,114 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55936)
+2025-08-03 17:56:46,114 - logconfig - INFO - 10
+2025-08-03 17:56:46,114 - logconfig - INFO - 2
+2025-08-03 17:56:46,114 - logconfig - INFO - 18
+2025-08-03 17:56:46,114 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-4 (new_thread), initial)>
+2025-08-03 17:56:46,114 - logconfig - INFO - 12
+2025-08-03 17:56:46,115 - logconfig - INFO - 4
+2025-08-03 17:56:46,115 - logconfig - INFO - 20
+2025-08-03 17:56:46,115 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:56:46,115 - logconfig - INFO - 14
+2025-08-03 17:56:46,115 - logconfig - INFO - Thread avviato su 3892
+2025-08-03 17:56:46,115 - logconfig - INFO - 6
+2025-08-03 17:56:46,116 - logconfig - INFO - 22
+2025-08-03 17:56:46,116 - logconfig - INFO - 0
+2025-08-03 17:56:46,116 - logconfig - INFO - 16
+2025-08-03 17:56:46,116 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55937)
+2025-08-03 17:56:46,116 - logconfig - INFO - 8
+2025-08-03 17:56:46,116 - logconfig - INFO - 24
+2025-08-03 17:56:46,117 - logconfig - INFO - 2
+2025-08-03 17:56:46,117 - logconfig - INFO - 18
+2025-08-03 17:56:46,117 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-5 (new_thread), initial)>
+2025-08-03 17:56:46,117 - logconfig - INFO - 10
+2025-08-03 17:56:46,117 - logconfig - INFO - 26
+2025-08-03 17:56:46,118 - logconfig - INFO - 4
+2025-08-03 17:56:46,118 - logconfig - INFO - 20
+2025-08-03 17:56:46,118 - logconfig - INFO - 12
+2025-08-03 17:56:46,118 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:56:46,118 - logconfig - INFO - Thread avviato su 16352
+2025-08-03 17:56:46,118 - logconfig - INFO - 28
+2025-08-03 17:56:46,118 - logconfig - INFO - 6
+2025-08-03 17:56:46,118 - logconfig - INFO - 22
+2025-08-03 17:56:46,119 - logconfig - INFO - 14
+2025-08-03 17:56:46,119 - logconfig - INFO - 0
+2025-08-03 17:56:46,119 - logconfig - INFO - 30
+2025-08-03 17:56:46,119 - logconfig - INFO - 8
+2025-08-03 17:56:46,119 - logconfig - INFO - 24
+2025-08-03 17:56:46,119 - logconfig - INFO - 16
+2025-08-03 17:56:46,120 - logconfig - INFO - 18
+2025-08-03 17:56:46,120 - logconfig - INFO - 32
+2025-08-03 17:56:46,120 - logconfig - INFO - 10
+2025-08-03 17:56:46,120 - logconfig - INFO - 26
+2025-08-03 17:56:46,120 - logconfig - INFO - 2
+2025-08-03 17:56:46,120 - logconfig - INFO - 20
+2025-08-03 17:56:46,120 - logconfig - INFO - 34
+2025-08-03 17:56:46,121 - logconfig - INFO - 12
+2025-08-03 17:56:46,121 - logconfig - INFO - 28
+2025-08-03 17:56:46,121 - logconfig - INFO - 4
+2025-08-03 17:56:46,121 - logconfig - INFO - 22
+2025-08-03 17:56:46,121 - logconfig - INFO - 36
+2025-08-03 17:56:46,121 - logconfig - INFO - 14
+2025-08-03 17:56:46,121 - logconfig - INFO - 30
+2025-08-03 17:56:46,122 - logconfig - INFO - 6
+2025-08-03 17:56:46,122 - logconfig - INFO - 24
+2025-08-03 17:56:46,122 - logconfig - INFO - 38
+2025-08-03 17:56:46,122 - logconfig - INFO - 16
+2025-08-03 17:56:46,122 - logconfig - INFO - 32
+2025-08-03 17:56:46,122 - logconfig - INFO - 8
+2025-08-03 17:56:46,122 - logconfig - INFO - 26
+2025-08-03 17:56:46,123 - logconfig - INFO - 40
+2025-08-03 17:56:46,123 - logconfig - INFO - 18
+2025-08-03 17:56:46,123 - logconfig - INFO - 34
+2025-08-03 17:56:46,123 - logconfig - INFO - 10
+2025-08-03 17:56:46,123 - logconfig - INFO - 28
+2025-08-03 17:56:46,123 - logconfig - INFO - 42
+2025-08-03 17:56:46,123 - logconfig - INFO - 20
+2025-08-03 17:56:46,124 - logconfig - INFO - 36
+2025-08-03 17:56:46,124 - logconfig - INFO - 12
+2025-08-03 17:56:46,124 - logconfig - INFO - 30
+2025-08-03 17:56:46,124 - logconfig - INFO - 44
+2025-08-03 17:56:46,124 - logconfig - INFO - 22
+2025-08-03 17:56:46,124 - logconfig - INFO - 38
+2025-08-03 17:56:46,124 - logconfig - INFO - 14
+2025-08-03 17:56:46,124 - logconfig - INFO - 32
+2025-08-03 17:56:46,125 - logconfig - INFO - 46
+2025-08-03 17:56:46,125 - logconfig - INFO - 24
+2025-08-03 17:56:46,125 - logconfig - INFO - 26
+2025-08-03 17:56:46,125 - logconfig - INFO - 16
+2025-08-03 17:56:46,125 - logconfig - INFO - 34
+2025-08-03 17:56:46,125 - logconfig - INFO - 48
+2025-08-03 17:56:46,126 - logconfig - INFO - 50
+2025-08-03 17:56:46,125 - logconfig - INFO - 28
+2025-08-03 17:56:46,126 - logconfig - INFO - 18
+2025-08-03 17:56:46,126 - logconfig - INFO - 36
+2025-08-03 17:56:46,125 - logconfig - INFO - 40
+2025-08-03 17:56:46,126 - logconfig - INFO - 52
+2025-08-03 17:56:46,126 - logconfig - INFO - 30
+2025-08-03 17:56:46,126 - logconfig - INFO - 20
+2025-08-03 17:56:46,126 - logconfig - INFO - 38
+2025-08-03 17:56:46,126 - logconfig - INFO - 42
+2025-08-03 17:56:46,126 - logconfig - INFO - 54
+2025-08-03 17:56:46,127 - logconfig - INFO - 32
+2025-08-03 17:56:46,127 - logconfig - INFO - 22
+2025-08-03 17:56:46,127 - logconfig - INFO - 40
+2025-08-03 17:56:46,127 - logconfig - INFO - 44
+2025-08-03 17:56:46,127 - logconfig - INFO - 56
+2025-08-03 17:56:46,127 - logconfig - INFO - 34
+2025-08-03 17:56:46,127 - logconfig - INFO - 24
+2025-08-03 17:56:46,127 - logconfig - INFO - 42
+2025-08-03 17:56:46,127 - logconfig - INFO - 46
+2025-08-03 17:56:46,128 - logconfig - INFO - 58
+2025-08-03 17:56:46,128 - logconfig - INFO - 36
+2025-08-03 17:56:46,128 - logconfig - INFO - 26
+2025-08-03 17:56:46,128 - logconfig - INFO - 44
+2025-08-03 17:56:46,128 - logconfig - INFO - 48
+2025-08-03 17:56:46,128 - logconfig - INFO - 60
+2025-08-03 17:56:46,128 - logconfig - INFO - 38
+2025-08-03 17:56:46,129 - logconfig - INFO - 28
+2025-08-03 17:56:46,129 - logconfig - INFO - 46
+2025-08-03 17:56:46,129 - logconfig - INFO - 50
+2025-08-03 17:56:46,129 - logconfig - INFO - 62
+2025-08-03 17:56:46,129 - logconfig - INFO - 40
+2025-08-03 17:56:46,129 - logconfig - INFO - 30
+2025-08-03 17:56:46,129 - logconfig - INFO - 48
+2025-08-03 17:56:46,129 - logconfig - INFO - 52
+2025-08-03 17:56:46,130 - logconfig - INFO - 64
+2025-08-03 17:56:46,130 - logconfig - INFO - 42
+2025-08-03 17:56:46,130 - logconfig - INFO - 32
+2025-08-03 17:56:46,130 - logconfig - INFO - 50
+2025-08-03 17:56:46,130 - logconfig - INFO - 54
+2025-08-03 17:56:46,130 - logconfig - INFO - 66
+2025-08-03 17:56:46,130 - logconfig - INFO - 44
+2025-08-03 17:56:46,131 - logconfig - INFO - 34
+2025-08-03 17:56:46,131 - logconfig - INFO - 52
+2025-08-03 17:56:46,131 - logconfig - INFO - 56
+2025-08-03 17:56:46,131 - logconfig - INFO - 68
+2025-08-03 17:56:46,131 - logconfig - INFO - 46
+2025-08-03 17:56:46,131 - logconfig - INFO - 36
+2025-08-03 17:56:46,131 - logconfig - INFO - 54
+2025-08-03 17:56:46,132 - logconfig - INFO - 58
+2025-08-03 17:56:46,132 - logconfig - INFO - 70
+2025-08-03 17:56:46,132 - logconfig - INFO - 72
+2025-08-03 17:56:46,132 - logconfig - INFO - 38
+2025-08-03 17:56:46,132 - logconfig - INFO - 56
+2025-08-03 17:56:46,133 - logconfig - INFO - 58
+2025-08-03 17:56:46,132 - logconfig - INFO - 48
+2025-08-03 17:56:46,133 - logconfig - INFO - 74
+2025-08-03 17:56:46,133 - logconfig - INFO - 40
+2025-08-03 17:56:46,132 - logconfig - INFO - 60
+2025-08-03 17:56:46,133 - logconfig - INFO - 60
+2025-08-03 17:56:46,133 - logconfig - INFO - 50
+2025-08-03 17:56:46,133 - logconfig - INFO - 76
+2025-08-03 17:56:46,133 - logconfig - INFO - 42
+2025-08-03 17:56:46,133 - logconfig - INFO - 62
+2025-08-03 17:56:46,133 - logconfig - INFO - 62
+2025-08-03 17:56:46,134 - logconfig - INFO - 52
+2025-08-03 17:56:46,134 - logconfig - INFO - 78
+2025-08-03 17:56:46,134 - logconfig - INFO - 44
+2025-08-03 17:56:46,134 - logconfig - INFO - 46
+2025-08-03 17:56:46,134 - logconfig - INFO - 64
+2025-08-03 17:56:46,134 - logconfig - INFO - 54
+2025-08-03 17:56:46,134 - logconfig - INFO - 80
+2025-08-03 17:56:46,134 - logconfig - INFO - 64
+2025-08-03 17:56:46,135 - logconfig - INFO - 48
+2025-08-03 17:56:46,135 - logconfig - INFO - 50
+2025-08-03 17:56:46,135 - logconfig - INFO - 56
+2025-08-03 17:56:46,135 - logconfig - INFO - 82
+2025-08-03 17:56:46,135 - logconfig - INFO - 66
+2025-08-03 17:56:46,135 - logconfig - INFO - 66
+2025-08-03 17:56:46,135 - logconfig - INFO - 52
+2025-08-03 17:56:46,136 - logconfig - INFO - 58
+2025-08-03 17:56:46,136 - logconfig - INFO - 84
+2025-08-03 17:56:46,136 - logconfig - INFO - 68
+2025-08-03 17:56:46,136 - logconfig - INFO - 68
+2025-08-03 17:56:46,137 - logconfig - INFO - 70
+2025-08-03 17:56:46,137 - logconfig - INFO - 72
+2025-08-03 17:56:46,136 - logconfig - INFO - 86
+2025-08-03 17:56:46,136 - logconfig - INFO - 70
+2025-08-03 17:56:46,136 - logconfig - INFO - 54
+2025-08-03 17:56:46,136 - logconfig - INFO - 60
+2025-08-03 17:56:46,137 - logconfig - INFO - 74
+2025-08-03 17:56:46,137 - logconfig - INFO - 88
+2025-08-03 17:56:46,137 - logconfig - INFO - 72
+2025-08-03 17:56:46,137 - logconfig - INFO - 56
+2025-08-03 17:56:46,137 - logconfig - INFO - 62
+2025-08-03 17:56:46,138 - logconfig - INFO - 76
+2025-08-03 17:56:46,138 - logconfig - INFO - 90
+2025-08-03 17:56:46,138 - logconfig - INFO - 74
+2025-08-03 17:56:46,138 - logconfig - INFO - 58
+2025-08-03 17:56:46,138 - logconfig - INFO - 64
+2025-08-03 17:56:46,138 - logconfig - INFO - 78
+2025-08-03 17:56:46,138 - logconfig - INFO - 92
+2025-08-03 17:56:46,138 - logconfig - INFO - 76
+2025-08-03 17:56:46,139 - logconfig - INFO - 78
+2025-08-03 17:56:46,139 - logconfig - INFO - 66
+2025-08-03 17:56:46,139 - logconfig - INFO - 68
+2025-08-03 17:56:46,139 - logconfig - INFO - 94
+2025-08-03 17:56:46,139 - logconfig - INFO - 60
+2025-08-03 17:56:46,139 - logconfig - INFO - 80
+2025-08-03 17:56:46,139 - logconfig - INFO - 80
+2025-08-03 17:56:46,139 - logconfig - INFO - 70
+2025-08-03 17:56:46,140 - logconfig - INFO - 96
+2025-08-03 17:56:46,140 - logconfig - INFO - 62
+2025-08-03 17:56:46,140 - logconfig - INFO - 82
+2025-08-03 17:56:46,140 - logconfig - INFO - 82
+2025-08-03 17:56:46,140 - logconfig - INFO - 72
+2025-08-03 17:56:46,140 - logconfig - INFO - 98
+2025-08-03 17:56:46,140 - logconfig - INFO - 64
+2025-08-03 17:56:46,140 - logconfig - INFO - 84
+2025-08-03 17:56:46,141 - logconfig - INFO - 84
+2025-08-03 17:56:46,141 - logconfig - INFO - 74
+2025-08-03 17:56:46,141 - logconfig - INFO - Avvio chiusura del thread <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+2025-08-03 17:56:46,141 - logconfig - INFO - 66
+2025-08-03 17:56:46,141 - logconfig - INFO - 86
+2025-08-03 17:56:46,141 - logconfig - INFO - 86
+2025-08-03 17:56:46,141 - logconfig - INFO - 76
+2025-08-03 17:56:46,142 - logconfig - INFO - 68
+2025-08-03 17:56:46,142 - logconfig - INFO - 88
+2025-08-03 17:56:46,142 - logconfig - INFO - 88
+2025-08-03 17:56:46,142 - logconfig - INFO - 78
+2025-08-03 17:56:46,142 - logconfig - INFO - 70
+2025-08-03 17:56:46,142 - logconfig - INFO - 90
+2025-08-03 17:56:46,143 - logconfig - INFO - 90
+2025-08-03 17:56:46,143 - logconfig - INFO - 80
+2025-08-03 17:56:46,143 - logconfig - INFO - 72
+2025-08-03 17:56:46,143 - logconfig - INFO - 92
+2025-08-03 17:56:46,144 - logconfig - INFO - 92
+2025-08-03 17:56:46,144 - logconfig - INFO - 82
+2025-08-03 17:56:46,144 - logconfig - INFO - 74
+2025-08-03 17:56:46,144 - logconfig - INFO - 94
+2025-08-03 17:56:46,144 - logconfig - INFO - 94
+2025-08-03 17:56:46,144 - logconfig - INFO - 84
+2025-08-03 17:56:46,145 - logconfig - INFO - 86
+2025-08-03 17:56:46,144 - logconfig - INFO - 96
+2025-08-03 17:56:46,145 - logconfig - INFO - 98
+2025-08-03 17:56:46,144 - logconfig - INFO - 76
+2025-08-03 17:56:46,145 - logconfig - INFO - 88
+2025-08-03 17:56:46,145 - logconfig - INFO - 96
+2025-08-03 17:56:46,146 - logconfig - INFO - 98
+2025-08-03 17:56:46,145 - logconfig - INFO - 78
+2025-08-03 17:56:46,146 - logconfig - INFO - 90
+2025-08-03 17:56:46,145 - logconfig - INFO - Avvio chiusura del thread <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+2025-08-03 17:56:46,146 - logconfig - INFO - Avvio chiusura del thread <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+2025-08-03 17:56:46,146 - logconfig - INFO - 80
+2025-08-03 17:56:46,146 - logconfig - INFO - 92
+2025-08-03 17:56:46,146 - logconfig - INFO - 82
+2025-08-03 17:56:46,147 - logconfig - INFO - 94
+2025-08-03 17:56:46,147 - logconfig - INFO - 84
+2025-08-03 17:56:46,147 - logconfig - INFO - 96
+2025-08-03 17:56:46,147 - logconfig - INFO - 86
+2025-08-03 17:56:46,147 - logconfig - INFO - 98
+2025-08-03 17:56:46,147 - logconfig - INFO - 88
+2025-08-03 17:56:46,147 - logconfig - INFO - Avvio chiusura del thread <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+2025-08-03 17:56:46,147 - logconfig - INFO - 90
+2025-08-03 17:56:46,148 - logconfig - INFO - 92
+2025-08-03 17:56:46,148 - logconfig - INFO - 94
+2025-08-03 17:56:46,148 - logconfig - INFO - 96
+2025-08-03 17:56:46,148 - logconfig - INFO - 98
+2025-08-03 17:56:46,148 - logconfig - INFO - Avvio chiusura del thread <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+2025-08-03 17:58:01,539 - logconfig - INFO - Avvio del server
+2025-08-03 17:58:01,539 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-03 17:58:07,226 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55958)
+, family=2, type=1, proto=0, laddr=('127.0.0.1', 55958), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:58:07,227 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-1 (new_thread), initial)>
+2025-08-03 17:58:07,227 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=316, family=2, type=1, proto=0, laddr=('127.0.0.1', 55959), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:58:07,227 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=76, family=2, type=1, proto=0, laddr=('127.0.0.1', 55960), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:58:07,227 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=380, family=2, type=1, proto=0, laddr=('127.0.0.1', 55961), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:58:07,227 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=384, family=2, type=1, proto=0, laddr=('127.0.0.1', 55962), raddr=('127.0.0.1', 50007)>
+2025-08-03 17:58:07,227 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:58:07,227 - logconfig - INFO - Thread avviato su 22916
+2025-08-03 17:58:07,228 - logconfig - INFO - 0
+2025-08-03 17:58:07,228 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55959)
+2025-08-03 17:58:07,228 - logconfig - INFO - 2
+2025-08-03 17:58:07,228 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-2 (new_thread), initial)>
+2025-08-03 17:58:07,228 - logconfig - INFO - 4
+2025-08-03 17:58:07,228 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:58:07,229 - logconfig - INFO - 6
+2025-08-03 17:58:07,229 - logconfig - INFO - Thread avviato su 3852
+2025-08-03 17:58:07,229 - logconfig - INFO - 0
+2025-08-03 17:58:07,229 - logconfig - INFO - 8
+2025-08-03 17:58:07,230 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55960)
+2025-08-03 17:58:07,230 - logconfig - INFO - 2
+2025-08-03 17:58:07,230 - logconfig - INFO - 10
+2025-08-03 17:58:07,230 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-3 (new_thread), initial)>
+2025-08-03 17:58:07,231 - logconfig - INFO - 4
+2025-08-03 17:58:07,231 - logconfig - INFO - 12
+2025-08-03 17:58:07,231 - logconfig - INFO - 6
+2025-08-03 17:58:07,231 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:58:07,231 - logconfig - INFO - 14
+2025-08-03 17:58:07,232 - logconfig - INFO - Thread avviato su 24668
+2025-08-03 17:58:07,232 - logconfig - INFO - 8
+2025-08-03 17:58:07,232 - logconfig - INFO - 10
+2025-08-03 17:58:07,232 - logconfig - INFO - 16
+2025-08-03 17:58:07,232 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55961)
+2025-08-03 17:58:07,232 - logconfig - INFO - 0
+2025-08-03 17:58:07,232 - logconfig - INFO - 12
+2025-08-03 17:58:07,233 - logconfig - INFO - 18
+2025-08-03 17:58:07,233 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-4 (new_thread), initial)>
+2025-08-03 17:58:07,233 - logconfig - INFO - 2
+2025-08-03 17:58:07,233 - logconfig - INFO - 14
+2025-08-03 17:58:07,233 - logconfig - INFO - 20
+2025-08-03 17:58:07,233 - logconfig - INFO - 4
+2025-08-03 17:58:07,234 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:58:07,234 - logconfig - INFO - 16
+2025-08-03 17:58:07,234 - logconfig - INFO - Thread avviato su 10896
+2025-08-03 17:58:07,234 - logconfig - INFO - 22
+2025-08-03 17:58:07,234 - logconfig - INFO - 6
+2025-08-03 17:58:07,235 - logconfig - INFO - 8
+2025-08-03 17:58:07,235 - logconfig - INFO - 10
+2025-08-03 17:58:07,235 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 55962)
+2025-08-03 17:58:07,235 - logconfig - INFO - 24
+2025-08-03 17:58:07,236 - logconfig - INFO - 26
+2025-08-03 17:58:07,235 - logconfig - INFO - 18
+2025-08-03 17:58:07,236 - logconfig - INFO - 12
+2025-08-03 17:58:07,236 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-5 (new_thread), initial)>
+2025-08-03 17:58:07,234 - logconfig - INFO - 0
+2025-08-03 17:58:07,236 - logconfig - INFO - 28
+2025-08-03 17:58:07,236 - logconfig - INFO - 20
+2025-08-03 17:58:07,236 - logconfig - INFO - 14
+2025-08-03 17:58:07,237 - logconfig - INFO - 16
+2025-08-03 17:58:07,237 - logconfig - INFO - 2
+2025-08-03 17:58:07,237 - logconfig - INFO - Thread avviato su 15044
+2025-08-03 17:58:07,237 - logconfig - INFO - 30
+2025-08-03 17:58:07,237 - logconfig - INFO - 22
+2025-08-03 17:58:07,237 - logconfig - INFO - Avvio del calcolo
+2025-08-03 17:58:07,237 - logconfig - INFO - 18
+2025-08-03 17:58:07,237 - logconfig - INFO - 4
+2025-08-03 17:58:07,237 - logconfig - INFO - 32
+2025-08-03 17:58:07,238 - logconfig - INFO - 24
+2025-08-03 17:58:07,238 - logconfig - INFO - 0
+2025-08-03 17:58:07,238 - logconfig - INFO - 20
+2025-08-03 17:58:07,238 - logconfig - INFO - 6
+2025-08-03 17:58:07,238 - logconfig - INFO - 34
+2025-08-03 17:58:07,238 - logconfig - INFO - 26
+2025-08-03 17:58:07,238 - logconfig - INFO - 2
+2025-08-03 17:58:07,239 - logconfig - INFO - 22
+2025-08-03 17:58:07,239 - logconfig - INFO - 8
+2025-08-03 17:58:07,239 - logconfig - INFO - 36
+2025-08-03 17:58:07,239 - logconfig - INFO - 28
+2025-08-03 17:58:07,239 - logconfig - INFO - 4
+2025-08-03 17:58:07,239 - logconfig - INFO - 24
+2025-08-03 17:58:07,239 - logconfig - INFO - 10
+2025-08-03 17:58:07,239 - logconfig - INFO - 38
+2025-08-03 17:58:07,240 - logconfig - INFO - 30
+2025-08-03 17:58:07,241 - logconfig - INFO - 32
+2025-08-03 17:58:07,240 - logconfig - INFO - 26
+2025-08-03 17:58:07,240 - logconfig - INFO - 12
+2025-08-03 17:58:07,240 - logconfig - INFO - 40
+2025-08-03 17:58:07,240 - logconfig - INFO - 6
+2025-08-03 17:58:07,241 - logconfig - INFO - 34
+2025-08-03 17:58:07,241 - logconfig - INFO - 28
+2025-08-03 17:58:07,241 - logconfig - INFO - 14
+2025-08-03 17:58:07,241 - logconfig - INFO - 42
+2025-08-03 17:58:07,241 - logconfig - INFO - 8
+2025-08-03 17:58:07,241 - logconfig - INFO - 36
+2025-08-03 17:58:07,242 - logconfig - INFO - 30
+2025-08-03 17:58:07,242 - logconfig - INFO - 16
+2025-08-03 17:58:07,242 - logconfig - INFO - 44
+2025-08-03 17:58:07,242 - logconfig - INFO - 10
+2025-08-03 17:58:07,242 - logconfig - INFO - 38
+2025-08-03 17:58:07,242 - logconfig - INFO - 32
+2025-08-03 17:58:07,243 - logconfig - INFO - 34
+2025-08-03 17:58:07,243 - logconfig - INFO - 46
+2025-08-03 17:58:07,243 - logconfig - INFO - 12
+2025-08-03 17:58:07,243 - logconfig - INFO - 40
+2025-08-03 17:58:07,242 - logconfig - INFO - 18
+2025-08-03 17:58:07,244 - logconfig - INFO - 36
+2025-08-03 17:58:07,244 - logconfig - INFO - 48
+2025-08-03 17:58:07,244 - logconfig - INFO - 14
+2025-08-03 17:58:07,244 - logconfig - INFO - 42
+2025-08-03 17:58:07,244 - logconfig - INFO - 20
+2025-08-03 17:58:07,244 - logconfig - INFO - 38
+2025-08-03 17:58:07,245 - logconfig - INFO - 50
+2025-08-03 17:58:07,245 - logconfig - INFO - 52
+2025-08-03 17:58:07,245 - logconfig - INFO - 44
+2025-08-03 17:58:07,245 - logconfig - INFO - 22
+2025-08-03 17:58:07,245 - logconfig - INFO - 40
+2025-08-03 17:58:07,245 - logconfig - INFO - 16
+2025-08-03 17:58:07,246 - logconfig - INFO - 54
+2025-08-03 17:58:07,246 - logconfig - INFO - 46
+2025-08-03 17:58:07,246 - logconfig - INFO - 24
+2025-08-03 17:58:07,246 - logconfig - INFO - 42
+2025-08-03 17:58:07,246 - logconfig - INFO - 18
+2025-08-03 17:58:07,246 - logconfig - INFO - 56
+2025-08-03 17:58:07,247 - logconfig - INFO - 48
+2025-08-03 17:58:07,247 - logconfig - INFO - 26
+2025-08-03 17:58:07,247 - logconfig - INFO - 44
+2025-08-03 17:58:07,247 - logconfig - INFO - 20
+2025-08-03 17:58:07,247 - logconfig - INFO - 58
+2025-08-03 17:58:07,247 - logconfig - INFO - 50
+2025-08-03 17:58:07,248 - logconfig - INFO - 28
+2025-08-03 17:58:07,248 - logconfig - INFO - 46
+2025-08-03 17:58:07,248 - logconfig - INFO - 22
+2025-08-03 17:58:07,248 - logconfig - INFO - 60
+2025-08-03 17:58:07,248 - logconfig - INFO - 52
+2025-08-03 17:58:07,249 - logconfig - INFO - 54
+2025-08-03 17:58:07,248 - logconfig - INFO - 48
+2025-08-03 17:58:07,249 - logconfig - INFO - 24
+2025-08-03 17:58:07,249 - logconfig - INFO - 62
+2025-08-03 17:58:07,248 - logconfig - INFO - 30
+2025-08-03 17:58:07,249 - logconfig - INFO - 56
+2025-08-03 17:58:07,249 - logconfig - INFO - 50
+2025-08-03 17:58:07,249 - logconfig - INFO - 26
+2025-08-03 17:58:07,249 - logconfig - INFO - 64
+2025-08-03 17:58:07,250 - logconfig - INFO - 32
+2025-08-03 17:58:07,250 - logconfig - INFO - 58
+2025-08-03 17:58:07,250 - logconfig - INFO - 52
+2025-08-03 17:58:07,250 - logconfig - INFO - 28
+2025-08-03 17:58:07,250 - logconfig - INFO - 66
+2025-08-03 17:58:07,250 - logconfig - INFO - 34
+2025-08-03 17:58:07,250 - logconfig - INFO - 60
+2025-08-03 17:58:07,250 - logconfig - INFO - 54
+2025-08-03 17:58:07,251 - logconfig - INFO - 30
+2025-08-03 17:58:07,251 - logconfig - INFO - 68
+2025-08-03 17:58:07,251 - logconfig - INFO - 36
+2025-08-03 17:58:07,251 - logconfig - INFO - 62
+2025-08-03 17:58:07,252 - logconfig - INFO - 56
+2025-08-03 17:58:07,252 - logconfig - INFO - 32
+2025-08-03 17:58:07,252 - logconfig - INFO - 70
+2025-08-03 17:58:07,252 - logconfig - INFO - 38
+2025-08-03 17:58:07,252 - logconfig - INFO - 64
+2025-08-03 17:58:07,252 - logconfig - INFO - 58
+2025-08-03 17:58:07,252 - logconfig - INFO - 34
+2025-08-03 17:58:07,252 - logconfig - INFO - 72
+2025-08-03 17:58:07,253 - logconfig - INFO - 40
+2025-08-03 17:58:07,253 - logconfig - INFO - 66
+2025-08-03 17:58:07,253 - logconfig - INFO - 60
+2025-08-03 17:58:07,253 - logconfig - INFO - 36
+2025-08-03 17:58:07,253 - logconfig - INFO - 74
+2025-08-03 17:58:07,253 - logconfig - INFO - 42
+2025-08-03 17:58:07,253 - logconfig - INFO - 68
+2025-08-03 17:58:07,254 - logconfig - INFO - 62
+2025-08-03 17:58:07,254 - logconfig - INFO - 38
+2025-08-03 17:58:07,254 - logconfig - INFO - 76
+2025-08-03 17:58:07,254 - logconfig - INFO - 44
+2025-08-03 17:58:07,254 - logconfig - INFO - 70
+2025-08-03 17:58:07,254 - logconfig - INFO - 64
+2025-08-03 17:58:07,254 - logconfig - INFO - 40
+2025-08-03 17:58:07,255 - logconfig - INFO - 78
+2025-08-03 17:58:07,255 - logconfig - INFO - 46
+2025-08-03 17:58:07,255 - logconfig - INFO - 72
+2025-08-03 17:58:07,255 - logconfig - INFO - 66
+2025-08-03 17:58:07,255 - logconfig - INFO - 42
+2025-08-03 17:58:07,255 - logconfig - INFO - 80
+2025-08-03 17:58:07,255 - logconfig - INFO - 48
+2025-08-03 17:58:07,256 - logconfig - INFO - 74
+2025-08-03 17:58:07,256 - logconfig - INFO - 68
+2025-08-03 17:58:07,256 - logconfig - INFO - 44
+2025-08-03 17:58:07,256 - logconfig - INFO - 82
+2025-08-03 17:58:07,256 - logconfig - INFO - 50
+2025-08-03 17:58:07,256 - logconfig - INFO - 76
+2025-08-03 17:58:07,256 - logconfig - INFO - 70
+2025-08-03 17:58:07,256 - logconfig - INFO - 46
+2025-08-03 17:58:07,257 - logconfig - INFO - 84
+2025-08-03 17:58:07,257 - logconfig - INFO - 52
+2025-08-03 17:58:07,257 - logconfig - INFO - 78
+2025-08-03 17:58:07,257 - logconfig - INFO - 72
+2025-08-03 17:58:07,257 - logconfig - INFO - 48
+2025-08-03 17:58:07,257 - logconfig - INFO - 86
+2025-08-03 17:58:07,257 - logconfig - INFO - 54
+2025-08-03 17:58:07,258 - logconfig - INFO - 80
+2025-08-03 17:58:07,258 - logconfig - INFO - 74
+2025-08-03 17:58:07,258 - logconfig - INFO - 50
+2025-08-03 17:58:07,258 - logconfig - INFO - 88
+2025-08-03 17:58:07,258 - logconfig - INFO - 56
+2025-08-03 17:58:07,258 - logconfig - INFO - 82
+2025-08-03 17:58:07,259 - logconfig - INFO - 76
+2025-08-03 17:58:07,259 - logconfig - INFO - 52
+2025-08-03 17:58:07,259 - logconfig - INFO - 90
+2025-08-03 17:58:07,260 - logconfig - INFO - 92
+2025-08-03 17:58:07,260 - logconfig - INFO - 94
+2025-08-03 17:58:07,259 - logconfig - INFO - 78
+2025-08-03 17:58:07,259 - logconfig - INFO - 54
+2025-08-03 17:58:07,259 - logconfig - INFO - 58
+2025-08-03 17:58:07,259 - logconfig - INFO - 84
+2025-08-03 17:58:07,260 - logconfig - INFO - 96
+2025-08-03 17:58:07,261 - logconfig - INFO - 80
+2025-08-03 17:58:07,261 - logconfig - INFO - 56
+2025-08-03 17:58:07,261 - logconfig - INFO - 60
+2025-08-03 17:58:07,261 - logconfig - INFO - 86
+2025-08-03 17:58:07,261 - logconfig - INFO - 98
+2025-08-03 17:58:07,261 - logconfig - INFO - 82
+2025-08-03 17:58:07,261 - logconfig - INFO - 58
+2025-08-03 17:58:07,262 - logconfig - INFO - 62
+2025-08-03 17:58:07,262 - logconfig - INFO - 88
+2025-08-03 17:58:07,262 - logconfig - INFO - 84
+2025-08-03 17:58:07,262 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55958)
+2025-08-03 17:58:07,262 - logconfig - INFO - 60
+2025-08-03 17:58:07,262 - logconfig - INFO - 64
+2025-08-03 17:58:07,262 - logconfig - INFO - 90
+2025-08-03 17:58:07,263 - logconfig - INFO - 86
+2025-08-03 17:58:07,263 - logconfig - INFO - 62
+2025-08-03 17:58:07,263 - logconfig - INFO - 66
+2025-08-03 17:58:07,263 - logconfig - INFO - 92
+2025-08-03 17:58:07,263 - logconfig - INFO - 88
+2025-08-03 17:58:07,264 - logconfig - INFO - 90
+2025-08-03 17:58:07,263 - logconfig - INFO - 68
+2025-08-03 17:58:07,264 - logconfig - INFO - 94
+2025-08-03 17:58:07,263 - logconfig - INFO - 64
+2025-08-03 17:58:07,264 - logconfig - INFO - 92
+2025-08-03 17:58:07,264 - logconfig - INFO - 70
+2025-08-03 17:58:07,264 - logconfig - INFO - 96
+2025-08-03 17:58:07,264 - logconfig - INFO - 66
+2025-08-03 17:58:07,264 - logconfig - INFO - 94
+2025-08-03 17:58:07,265 - logconfig - INFO - 72
+2025-08-03 17:58:07,265 - logconfig - INFO - 98
+2025-08-03 17:58:07,265 - logconfig - INFO - 68
+2025-08-03 17:58:07,265 - logconfig - INFO - 96
+2025-08-03 17:58:07,265 - logconfig - INFO - 74
+2025-08-03 17:58:07,265 - logconfig - INFO - 70
+2025-08-03 17:58:07,266 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55959)
+2025-08-03 17:58:07,266 - logconfig - INFO - 98
+2025-08-03 17:58:07,266 - logconfig - INFO - 76
+2025-08-03 17:58:07,266 - logconfig - INFO - 72
+2025-08-03 17:58:07,267 - logconfig - INFO - 78
+2025-08-03 17:58:07,267 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55960)
+2025-08-03 17:58:07,267 - logconfig - INFO - 74
+2025-08-03 17:58:07,267 - logconfig - INFO - 80
+2025-08-03 17:58:07,268 - logconfig - INFO - 76
+2025-08-03 17:58:07,268 - logconfig - INFO - 82
+2025-08-03 17:58:07,268 - logconfig - INFO - 78
+2025-08-03 17:58:07,268 - logconfig - INFO - 84
+2025-08-03 17:58:07,268 - logconfig - INFO - 80
+2025-08-03 17:58:07,268 - logconfig - INFO - 86
+2025-08-03 17:58:07,269 - logconfig - INFO - 82
+2025-08-03 17:58:07,269 - logconfig - INFO - 88
+2025-08-03 17:58:07,269 - logconfig - INFO - 84
+2025-08-03 17:58:07,269 - logconfig - INFO - 90
+2025-08-03 17:58:07,269 - logconfig - INFO - 86
+2025-08-03 17:58:07,269 - logconfig - INFO - 92
+2025-08-03 17:58:07,269 - logconfig - INFO - 88
+2025-08-03 17:58:07,269 - logconfig - INFO - 94
+2025-08-03 17:58:07,270 - logconfig - INFO - 90
+2025-08-03 17:58:07,270 - logconfig - INFO - 96
+2025-08-03 17:58:07,270 - logconfig - INFO - 92
+2025-08-03 17:58:07,270 - logconfig - INFO - 98
+2025-08-03 17:58:07,270 - logconfig - INFO - 94
+2025-08-03 17:58:07,270 - logconfig - INFO - 96
+2025-08-03 17:58:07,270 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55961)
+2025-08-03 17:58:07,270 - logconfig - INFO - 98
+2025-08-03 17:58:07,271 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 55962)
