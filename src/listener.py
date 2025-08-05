@@ -7,11 +7,10 @@ PORT = 50007
 
 #funzione per testare la velocità di esecuzione
 def new_thread(conn, addr):
-    logconfig.LOGGER.info(f"Avvio del calcolo")
+    logconfig.LOGGER.info(f"Avvio del calcolo per il thread {addr}")
     with conn: #fa si che una volta finita l'esecuzione inizi la chiusura della connessione inviando un FIN al client (pacchetto di 0 byte) necessario anche per rilasciare la connessione anche in presenza di errori
         for i in range(50):
             i+=i
-            logconfig.LOGGER.info(f"{i}")
     logconfig.LOGGER.info(f"Avvio chiusura del thread {addr}")
 
 
