@@ -1,6 +1,6 @@
 import socket
 import logconfig
-from threading import Thread
+from threading import Thread, ThreadError
 
 HOST = ''
 PORT = 50007
@@ -8,7 +8,7 @@ PORT = 50007
 #funzione per testare la velocità di esecuzione
 def new_thread(conn, addr):
     logconfig.LOGGER.info(f"Avvio del calcolo per il thread {addr}")
-    with conn: #fa si che una volta finita l'esecuzione inizi la chiusura della connessione inviando un FIN al client (pacchetto di 0 byte) necessario anche per rilasciare la connessione anche in presenza di errori
+    with conn:
         for i in range(50):
             i+=i
     logconfig.LOGGER.info(f"Avvio chiusura del thread {addr}")
@@ -26,10 +26,16 @@ def start_server():
         while True:
             conn, addr = s.accept()
             logconfig.LOGGER.info(f"Connessione accettata da: {addr}")
-            t = Thread(target=new_thread, args=(conn, addr)) #i parametri da passare deve essere per forza una tupla altrimenti da errore TypeError: __main__.new_thread() argument after * must be an iterable, not socket
-            logconfig.LOGGER.info(f"Creato nuovo thread: {t}")
-            t.start()
-            logconfig.LOGGER.info(f"Thread avviato su {t.native_id}")
+            #i parametri da passare deve essere per forza una tupla
+            #errore TypeError: __main__.new_thread() argument after * must be an iterable, not socket
+            try:
+                t = Thread(target=new_thread, args=(conn, addr))
+            except ThreadError as err:
+                print (err)
+            finally:
+                logconfig.LOGGER.info(f"Creato nuovo thread: {t}{addr}")
+                t.start()
+                logconfig.LOGGER.info(f"Thread avviato su {t.native_id}")
         
 if __name__ == "__main__":
     #LOGGER = logconfig.logging.getLogger

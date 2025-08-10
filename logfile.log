@@ -1,2 +1,39 @@
-2025-08-05 21:04:11,069 - logconfig - INFO - Avvio del server
-2025-08-05 21:04:11,069 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-10 13:21:56,753 - logconfig - INFO - Avvio del server
+2025-08-10 13:21:56,754 - logconfig - INFO - Server in ascolto su port : 50007
+2025-08-10 13:22:03,009 - logconfig - INFO - Connessione 1 stabilita su <socket.socket fd=384, family=2, type=1, proto=0, laddr=('127.0.0.1', 5017), raddr=('127.0.0.1', 50007)>
+2025-08-10 13:22:03,009 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 5017)
+2025-08-10 13:22:03,010 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-1 (new_thread), initial)>('127.0.0.1', 5017)
+2025-08-10 13:22:03,010 - logconfig - INFO - Connessione 2 stabilita su <socket.socket fd=388, family=2, type=1, proto=0, laddr=('127.0.0.1', 5018), raddr=('127.0.0.1', 50007)>
+2025-08-10 13:22:03,010 - logconfig - INFO - Connessione 3 stabilita su <socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 5019), raddr=('127.0.0.1', 50007)>
+2025-08-10 13:22:03,010 - logconfig - INFO - Connessione 4 stabilita su <socket.socket fd=396, family=2, type=1, proto=0, laddr=('127.0.0.1', 5020), raddr=('127.0.0.1', 50007)>
+2025-08-10 13:22:03,010 - logconfig - INFO - Avvio del calcolo per il thread ('127.0.0.1', 5017)
+2025-08-10 13:22:03,011 - logconfig - INFO - Thread avviato su 3924
+2025-08-10 13:22:03,011 - logconfig - INFO - Connessione 5 stabilita su <socket.socket fd=400, family=2, type=1, proto=0, laddr=('127.0.0.1', 5021), raddr=('127.0.0.1', 50007)>
+2025-08-10 13:22:03,011 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 5017)
+2025-08-10 13:22:03,011 - logconfig - INFO - 5 connections are active
+2025-08-10 13:22:03,011 - logconfig - INFO - connessione <socket.socket [closed] fd=-1, family=2, type=1, proto=0> chiusa
+2025-08-10 13:22:03,011 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 5018)
+2025-08-10 13:22:03,011 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-2 (new_thread), initial)>('127.0.0.1', 5018)
+2025-08-10 13:22:03,012 - logconfig - INFO - Avvio del calcolo per il thread ('127.0.0.1', 5018)
+2025-08-10 13:22:03,012 - logconfig - INFO - Thread avviato su 3384
+2025-08-10 13:22:03,012 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 5018)
+2025-08-10 13:22:03,012 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 5019)
+2025-08-10 13:22:03,012 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-3 (new_thread), initial)>('127.0.0.1', 5019)
+2025-08-10 13:22:03,013 - logconfig - INFO - Avvio del calcolo per il thread ('127.0.0.1', 5019)
+2025-08-10 13:22:03,013 - logconfig - INFO - Thread avviato su 25920
+2025-08-10 13:22:03,013 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 5019)
+2025-08-10 13:22:03,013 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 5020)
+2025-08-10 13:22:03,013 - logconfig - INFO - connessione <socket.socket [closed] fd=-1, family=2, type=1, proto=0> chiusa
+2025-08-10 13:22:03,013 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-4 (new_thread), initial)>('127.0.0.1', 5020)
+2025-08-10 13:22:03,013 - logconfig - INFO - Avvio del calcolo per il thread ('127.0.0.1', 5020)
+2025-08-10 13:22:03,013 - logconfig - INFO - Thread avviato su 22016
+2025-08-10 13:22:03,013 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 5020)
+2025-08-10 13:22:03,013 - logconfig - INFO - Connessione accettata da: ('127.0.0.1', 5021)
+2025-08-10 13:22:03,014 - logconfig - INFO - Creato nuovo thread: <Thread(Thread-5 (new_thread), initial)>('127.0.0.1', 5021)
+2025-08-10 13:22:03,015 - logconfig - INFO - Avvio del calcolo per il thread ('127.0.0.1', 5021)
+2025-08-10 13:22:03,015 - logconfig - INFO - Thread avviato su 20044
+2025-08-10 13:22:03,015 - logconfig - INFO - Avvio chiusura del thread ('127.0.0.1', 5021)
+2025-08-10 13:22:03,015 - logconfig - INFO - connessione <socket.socket [closed] fd=-1, family=2, type=1, proto=0> chiusa
+2025-08-10 13:22:03,015 - logconfig - INFO - connessione <socket.socket [closed] fd=-1, family=2, type=1, proto=0> chiusa
+2025-08-10 13:22:03,015 - logconfig - INFO - connessione <socket.socket [closed] fd=-1, family=2, type=1, proto=0> chiusa
+2025-08-10 13:22:03,015 - logconfig - INFO - Client close all connection
