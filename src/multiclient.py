@@ -6,7 +6,7 @@ HOST = '127.0.0.1'
 PORT = 50007
 
 sockets = []
-for i in range(5):
+for i in range(1500):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((HOST, PORT))
     logconfig.LOGGER.info(f"Connessione {i+1} stabilita su {s}")

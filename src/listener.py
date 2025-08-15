@@ -9,7 +9,7 @@ PORT = 50007
 def new_thread(conn, addr):
     logconfig.LOGGER.info(f"Avvio del calcolo per il thread {addr}")
     with conn:
-        for i in range(50):
+        for i in range(150000):
             i+=i
     logconfig.LOGGER.info(f"Avvio chiusura del thread {addr}")
 
@@ -30,10 +30,10 @@ def start_server():
             #errore TypeError: __main__.new_thread() argument after * must be an iterable, not socket
             try:
                 t = Thread(target=new_thread, args=(conn, addr))
+                logconfig.LOGGER.info(f"Creato nuovo thread: {t}{addr}")
             except ThreadError as err:
                 print (err)
             finally:
-                logconfig.LOGGER.info(f"Creato nuovo thread: {t}{addr}")
                 t.start()
                 logconfig.LOGGER.info(f"Thread avviato su {t.native_id}")
         
